@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnMaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="マスタ読み取り (1回目)"/>
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="照合読み取り (2回目)"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状態表示"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"/>
+</LinearLayout>
